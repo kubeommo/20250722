@@ -7,9 +7,9 @@ public class DBTest {
 		Connection con=null;
 		
 		try {
-			String id="root";
-			String pw="1234";
-			String url="jdbc:mysql://localhost:3309/sakila";
+			String id="spring5";
+			String pw="spring5";
+			String url="jdbc:mysql://localhost:3305/spring5fs";
 			
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			
